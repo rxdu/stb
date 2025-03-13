@@ -12,7 +12,7 @@ target_include_directories(stb INTERFACE
 
 ## installation configuration
 install(TARGETS stb
-    EXPORT xmotionTargets
+    EXPORT quickvizTargets
     LIBRARY DESTINATION lib
     ARCHIVE DESTINATION lib
     RUNTIME DESTINATION bin
